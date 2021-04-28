@@ -9,7 +9,7 @@ let cors = require("cors");
 app.use(express.static(process.cwd()));
 
 //Database URL Details 
-let url = "mongodb://localhost:27017/meanstack";
+let url = "mongodb://localhost:27017/TCSCapstone";
 
 //load the frontend file ie angular program 
 
@@ -53,5 +53,5 @@ app.use("/product",Product)
 
 
 
-app.listen(9090,()=>console.log("Server running on port number 9090"));
+app.listen(9092,()=>console.log("Server running on port number 9092"));
 
